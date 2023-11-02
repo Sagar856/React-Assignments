@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Q-21</title>
+  <link rel="stylesheet" href="./assets/styles/main.css">
+  <script src="./assets/scripts/script.js"></script>
+</head>
+
+<body>
+  <div class="main-container">
+    <button 
+      type="button" 
+      onclick="handleAddElement()">Add Element</button> 
+    <button
+      type="button" 
+      onclick="handleRemoveElement()">Remove Element</button>
+      <button 
+      type="button"
+      onclick="handleRemoveAll()">Remove All</button>
+    <div class="container">
+      <div class="add-container">
+        <div id="addElement">
+          <input 
+          type="text" 
+          id="inputValue" />
+        </div>
+        <button 
+          type="submit"
+          onclick="handleSubmit()">
+          Submit
+        </button>
+      </div>
+      <div class="show-container">
+        <h4>Your selected values are:</h4>
+        <ul id="selectedValues"></ul>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

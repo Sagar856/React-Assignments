@@ -1,0 +1,127 @@
+/* Main CSS */
+/* btn submit */
+/* btn submit */
+.main-content {
+  background-color: aqua;
+  height: 80vh;
+  width: 900px;
+  margin: 50px 85px 20px 85px;
+  padding: 20px;
+}
+
+.form-and-address {
+  width: 50%;
+}
+
+form {
+  width: 600px;
+  height: 350px;
+  background-color: white;
+}
+
+.address {
+  background-color: #0043c6;
+  height: 350px;
+  width: 300px;
+  margin-top: 25px;
+}
+
+.main-form {
+  width: 300px;
+}
+
+#nameInputLabel {
+  margin-left: 0px;
+  color: #0043c6;
+}
+
+#nameInput {
+  margin-left: 80px;
+  border: none;
+  border-bottom: 2px solid gray;
+  width: 180px;
+}
+
+#phone-input-label {
+  margin-left: 0px;
+  color: #0043c6;
+}
+
+#phoneInput {
+  margin-left: 80px;
+  border: none;
+  border-bottom: 2px solid gray;
+  width: 180px;
+}
+
+#email-input-label {
+  margin-left: 0px;
+  color: #0043c6;
+}
+
+#emailInput {
+  margin-left: 80px;
+  border: none;
+  border-bottom: 2px solid gray;
+  width: 180px;
+}
+
+#subject-input-label {
+  margin-left: 0px;
+  color: darkblue;
+}
+
+#subjectInput {
+  margin-left: 80px;
+  border: none;
+  border-bottom: 2px solid gray;
+  width: 180px;
+}
+
+.query-label {
+  color: darkblue;
+}
+
+.send {
+  color: white;
+  background-color: blue;
+  margin: 20px 400px 0px 0px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  border-radius: 40%;
+}
+.send:hover {
+  color: rgb(41, 65, 93);
+  background-color: rgb(169, 169, 201);
+  margin: 20px 400px 0px 0px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  border-radius: 40%;
+}
+
+.location-details {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.address {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.address-details {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  gap: 20px;
+}
+
+span {
+  text-align: justify;
+  font-weight: lighter;
+}
+
+/*# sourceMappingURL=main.css.map */

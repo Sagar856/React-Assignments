@@ -1,0 +1,33 @@
+.main-container {
+  border: solid 1px;
+  width: 50%;
+  padding: 6px;
+}
+
+input {
+  margin-bottom: 3px;
+}
+
+.container {
+  display: flex;
+  /* width: 50%; */
+  margin-top: 6px;
+  /* padding: 6px; */
+}
+
+.add-container {
+  border: dashed 1px;
+  padding: 6px;
+  /* display: block; */
+  width: 50%;
+}
+
+.show-container {
+  margin-left: 3px;
+  width: 48%;
+  border: solid 1px;
+}
+
+button {
+  margin-top: 6px;
+}

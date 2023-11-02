@@ -1,0 +1,228 @@
+/* ========================= Responsive CSS ================================= */
+/* =========== for small devices (320px and down) ================= */
+@media only screen and (max-width: 320px) {
+  /* orange section starts */
+  .orange-top-left,
+  .orange-top-right {
+    background: orange;
+    height: 60px;
+    width: 100%;
+  }
+
+  .orange-top-right {
+    margin-top: 5px;
+  }
+  /* orange section ends */
+
+  /* green section starts */
+  .green-middle {
+    height: 130px;
+    width: 100%;
+    background: greenyellow;
+    margin: 10px 0;
+  }
+
+  /* blue section starts */
+  .blue {
+    margin: 10px 0;
+  }
+
+  .blue-right,
+  .blue-left,
+  .blue-middle {
+    height: 180px;
+    width: 100%;
+    background: lightblue;
+  }
+
+  .blue-left,
+  .blue-middle {
+    margin: 0 0 5px 0;
+  }
+  /* blue section ends */
+
+  /* Grey section starts */
+  .grey {
+    margin: 10px 0;
+  }
+
+  .grey-left,
+  .grey-middle-left,
+  .grey-middle-right,
+  .grey-right {
+    height: 150px;
+    width: 100%;
+    background: grey;
+  }
+
+  .grey-middle-left,
+  .grey-middle-right,
+  .grey-right {
+    margin-top: 5px;
+  }
+  /* Grey section ends */
+}
+
+/* ============= Medium devices (768px and up) ============= */
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  /* orange section starts */
+  .orange-top-left,
+  .orange-top-right {
+    background: orange;
+    height: 100px;
+    width: 100%;
+  }
+
+  .orange-top-right {
+    margin-top: 5px;
+  }
+  /* orange section ends */
+
+  /* green section starts */
+  .green-middle {
+    height: 230px;
+    width: 100%;
+    background: greenyellow;
+    margin: 15px 0;
+  }
+
+  /* blue section starts */
+  .blue {
+    margin: 15px 0;
+  }
+
+  .blue-left,
+  .blue-middle {
+    margin: 0 0 5px 0;
+  }
+
+  .blue-right,
+  .blue-left,
+  .blue-middle {
+    height: 145px;
+    width: 100%;
+    background: lightblue;
+  }
+  /* blue section ends */
+
+  /* Grey section starts */
+  .grey {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+  }
+
+  .grey-left,
+  .grey-middle-right,
+  .grey-middle-left,
+  .grey-right {
+    flex: 45%;
+    height: 100px;
+    width: 100%;
+    background: grey;
+  }
+
+  .grey-left,
+  .grey-middle-right {
+    margin: 0 5px 5px 0px;
+  }
+
+  .grey-middle-left,
+  .grey-right {
+    margin: 0 0 5px 5px;
+  }
+  /* Grey section ends */
+}
+
+/* ========== large devices (1024px and up) ============= */
+/* and (max-width: 1024px) */
+@media only screen and (min-width: 769px) {
+  /* orange section starts */
+  .orange {
+    display: flex;
+    flex: 1;
+  }
+
+  .orange-top-left,
+  .orange-top-right {
+    background: orange;
+    height: 100px;
+    width: 100%;
+    flex: 1;
+  }
+
+  .orange-top-left {
+    margin: 10px 5px 10px 0;
+  }
+
+  .orange-top-right {
+    margin: 10px 0 10px 5px;
+  }
+  /* orange section ends */
+
+  /* green section starts */
+  .green-middle {
+    height: 300px;
+    width: 100%;
+    background: greenyellow;
+    margin: 10px 0px 10px 0px;
+  }
+
+  /* blue section starts */
+  .blue {
+    display: flex;
+    flex: 1;
+  }
+
+  .blue-left,
+  .blue-middle,
+  .blue-right {
+    flex: 1;
+    height: 200px;
+    width: 100%;
+    background: lightblue;
+  }
+
+  .blue-left {
+    margin: 10px 5px 10px 0;
+  }
+
+  .blue-middle {
+    margin: 10px 5px 10px 5px;
+  }
+
+  .blue-right {
+    margin: 10px 0 10px 5px;
+  }
+  /* blue section ends */
+
+  /* Grey section starts */
+  .grey {
+    display: flex;
+    flex: 1;
+  }
+
+  .grey-left,
+  .grey-middle-left,
+  .grey-middle-right,
+  .grey-right {
+    flex: 1;
+    height: 200px;
+    width: 100%;
+    background: grey;
+  }
+
+  .grey-left {
+    margin: 10px 5px 10px 0;
+  }
+
+  .grey-middle-left,
+  .grey-middle-right {
+    margin: 10px 5px 10px 5px;
+  }
+
+  .grey-right {
+    margin: 10px 0 10px 5px;
+  }
+  /* Grey section ends */
+}

@@ -1,0 +1,34 @@
+/* Utuility Classes */
+.table-border, .heading-border{
+  border: 1px solid black;
+  margin: 20px auto;
+}
+
+.row-span-border{
+  border: 1px solid black;
+}
+
+.saving-border{
+  border: 1px solid black;
+}
+
+.cost-per-month{
+  display: flex;
+  flex-direction: row;
+}
+
+.cost-per-month .month-border{
+  border: 1px solid black;
+  width: 70px;
+}
+
+.expense {
+  border: 1px solid black;
+  margin-left: 2px;
+  width: 40px;
+}
+
+#special {
+  text-align: center;
+  font-weight: bold;
+}

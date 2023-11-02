@@ -1,0 +1,76 @@
+/* Utility classes */
+.container {
+  width: 985px;
+  border: 30px solid black;
+  margin: auto;
+}
+
+header {
+  background-color: rgb(18, 116, 245);
+  border-radius: 10px;
+  color: white;
+  margin: 10px;
+  height: 50px;
+  padding: 15px;
+  box-shadow: 3px 3px 3px 3px #5f23e9;
+}
+
+.grid-section {
+  background-color: #4fa152;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.grid-section h3 {
+  font-size: 27px;
+  color: white;
+  padding-left: 30px;
+  padding-top: 40px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 1px;
+  margin: 10px;
+}
+
+.main-items {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  padding: 40px;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 3px 3px 3px 3px #2e5e3b;
+}
+
+aside {
+  background-color: darkorange;
+  border: 1px solid red;
+  border-radius: 20px;
+  width: 100%;
+  margin: 10px;
+  color: white;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.main-container {
+  display: flex;
+}
+
+footer {
+  background-color: rgb(8, 23, 232);
+  border-radius: 10px;
+  margin: 10px;
+  color: white;
+  height: 50px;
+  padding: 15px;
+  box-shadow: 3px 3px 3px 3px #624adc;
+}
+
+/*# sourceMappingURL=question5.css.map */
+
+/*# sourceMappingURL=main.css.map */

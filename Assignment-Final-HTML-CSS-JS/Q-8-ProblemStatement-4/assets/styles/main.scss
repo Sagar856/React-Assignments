@@ -1,0 +1,103 @@
+$color_1: #0043c6;
+$color_2: darkblue;
+$color_3: white;
+$color_4: rgb(41, 65, 93);
+$font-family_1: Arial, Helvetica, sans-serif;
+$background-color_1: aqua;
+$background-color_2: white;
+$background-color_3: #0043c6;
+$background-color_4: blue;
+$background-color_5: rgb(169, 169, 201);
+
+/* Main CSS */
+/* btn submit */
+/* btn submit */
+.main-content {
+	background-color: $background-color_1;
+	height: 80vh;
+	width: 900px;
+	margin: 50px 85px 20px 85px;
+	padding: 20px;
+}
+.form-and-address {
+	width: 50%;
+}
+form {
+	width: 600px;
+	height: 350px;
+	background-color: $background-color_2;
+}
+.address {
+	background-color: $background-color_3;
+	height: 350px;
+	width: 300px;
+	margin-top: 25px;
+}
+.main-form {
+	width: 300px;
+}
+#nameInputLabel {
+	margin-left: 0px;
+	color: $color_1;
+}
+#nameInput {
+	margin-left: 80px;
+	border: none;
+	border-bottom: 2px solid gray;
+	width: 180px;
+}
+#phone-input-label {
+	margin-left: 0px;
+	color: $color_1;
+}
+#phoneInput {
+	margin-left: 80px;
+	border: none;
+	border-bottom: 2px solid gray;
+	width: 180px;
+}
+#email-input-label {
+	margin-left: 0px;
+	color: $color_1;
+}
+#emailInput {
+	margin-left: 80px;
+	border: none;
+	border-bottom: 2px solid gray;
+	width: 180px;
+}
+#subject-input-label {
+	margin-left: 0px;
+	color: $color_2;
+}
+#subjectInput {
+	margin-left: 80px;
+	border: none;
+	border-bottom: 2px solid gray;
+	width: 180px;
+}
+.query-label {
+	color: $color_2;
+}
+.send {
+	color: $color_3;
+	background-color: $background-color_4;
+	margin: 20px 400px 0px 0px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	border: none;
+	border-radius: 40%;
+	&:hover {
+		color: $color_4;
+		background-color: $background-color_5;
+		margin: 20px 400px 0px 0px;
+		padding: 10px 15px;
+		border-radius: 5px;
+		border: none;
+		border-radius: 40%;
+	}
+}
+.location-details {
+	color: $color_3;
+	font-family: $font-family_1;
+}

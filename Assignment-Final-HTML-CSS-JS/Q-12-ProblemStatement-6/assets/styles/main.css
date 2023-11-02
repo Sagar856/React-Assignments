@@ -1,0 +1,39 @@
+/* Styles for table */
+table {
+  border-collapse: collapse;
+  width: 70%;
+  margin: 40px auto;
+}
+
+/* Table head styles */
+table thead tr {
+  border-bottom: 2px solid #ccc;
+  border-top: 2px solid #ccc;
+}
+
+th {
+  text-align: left;    
+  padding: 10px;
+}
+
+/* Table body styles */
+table tbody tr {
+  border-bottom: 1px solid #ccc;
+}
+
+td {
+  padding: 15px;
+}
+
+/* Delete button styles */
+.Delete-btn {
+  background-color: red;
+  color: white;
+  padding: 6px 12px;
+  border: 0;
+  border-radius: 6px;
+}
+
+.removed{
+  transform: translateX(100vw);
+}
